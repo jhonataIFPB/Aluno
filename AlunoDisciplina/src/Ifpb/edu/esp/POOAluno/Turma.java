@@ -5,7 +5,8 @@ import java.util.Set;
 public class Turma {
 
 	private Long codigo;
-	private Set<Aluno> alunos;	
+	private Set<Aluno> alunos;
+	private Integer anoTurma;
 	
 	public Long getCodigo() {
 		return codigo;
@@ -18,6 +19,12 @@ public class Turma {
 	}
 	public void setAlunos(Set<Aluno> alunos) {
 		this.alunos = alunos;
+	}
+	public Integer getanoTurma() {
+		return anoTurma;
+	}
+	public void setanoTurma(Integer anoTurma) {
+		anoTurma = anoTurma;
 	}
 	
 	
