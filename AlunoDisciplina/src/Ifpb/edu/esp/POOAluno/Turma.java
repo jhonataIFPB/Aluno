@@ -5,9 +5,7 @@ import java.util.Set;
 public class Turma {
 
 	private Long codigo;
-	private Set<Aluno> alunos;
-	private 
-	
+	private Set<Aluno> alunos;	
 	
 	public Long getCodigo() {
 		return codigo;
